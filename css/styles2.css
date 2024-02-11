@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "Courier New", "Courier New", Courier, monospace;
+  --bg-primary: #64127c;
+  --bg-secondary: #17bebb;
+  --font-primary: #f3d34a;
+  --font-secondary: #6c5a49;
+  --backup: #eea243;
+}
+
+body {
+  background: var(--bg-secondary);
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--bg-primary);
+}
+
+/* start of navbar */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 8px;
+  padding: 50px 50px;
+}
+
+.navbar h2 {
+  color: var(--font-primary);
+  font-weight: 600;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: var(--bg-primary);
+  font-size: 15px;
+  margin-right: 25px;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li:hover a {
+  color: var(--font-primary);
+}
+
+.navbar ul li:last-child {
+  margin: 0;
+}
+
+/* end of navbar */
+
+/* start of cols1 */
+
+.cols1 {
+  display: flex;
+}
+
+.cols1 .cols1Left {
+  margin-left: 50px;
+  width: 16%;
+}
+
+.cols1 .cols1Right h2 {
+  margin-left: 50px;
+  margin-top: 18px;
+}
+
+.cols1 .cols1Right p {
+  margin-left: 50px;
+}
+
+/* end of cols1 */
+
+/* start of cols2 */
+
+.cols2 {
+  display: flex;
+  margin-top: 30px;
+}
+
+.cols2 .cols2Left {
+  width: 50%;
+  margin: 50px;
+}
+
+.cols2 .cols2Right {
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cols2 .cols2Right table {
+  margin-left: 50px;
+  border: 1px solid;
+}
+
+/* end of cols2 */
+
+/* start of extras and footer */
+
+.extra {
+  margin: 50px;
+}
+
+.extra h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.extra p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  background: var(--bg-primary);
+  margin-top: 50px;
+  color: var(--font-primary);
+}
+
+.footer p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* end of extras and footer */

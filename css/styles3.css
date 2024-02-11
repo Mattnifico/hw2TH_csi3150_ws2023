@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,700&display=swap");
+
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "Courier New", "Courier New", Courier, monospace;
+  --bg-primary: #64127c;
+  --bg-secondary: #17bebb;
+  --font-primary: #f3d34a;
+  --font-secondary: #6c5a49;
+  --backup: #eea243;
+}
+
+body{
+    background: var(--bg-primary);
+}
+
+/* start of navbar */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8px;
+    padding: 50px 50px;
+  }
+  
+  .navbar h2 {
+    color: var(--font-primary);
+    font-weight: 600;
+  }
+  
+  .navbar ul {
+    display: flex;
+  }
+  
+  .navbar ul li {
+    list-style: none;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: var(--font-primary);
+    font-size: 15px;
+    margin-right: 25px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar ul li:hover a {
+    color: var(--bg-secondary);
+  }
+  
+  .navbar ul li:last-child {
+    margin: 0;
+  }
+
+/* end of navbar */
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    color: var(--font-primary);
+}
+
+/* start of cols */
+.cols{
+    display: flex;
+}
+
+.cols .leftSide{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.cols .leftSide h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--font-primary);
+}
+
+.cols .leftSide p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.cols .leftSide img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.cols .leftSide a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cols .rightSide{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50%;
+}
+
+.cols .rightSide h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--font-primary);
+}
+
+.cols .rightSide p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cols .rightSide audio{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.cols .rightSide a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    color: var(--bg-secondary);
+}
+
+.cols .rightSide iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
